@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hope QRScan</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="header">
+        <div class="logo">CAMT Logo</div>
+        <div class="lang-switcher">
+            <span id="lang-en">EN</span> | <span id="lang-jp">JP</span>
+        </div>
+    </header>
     
+    <main class="container">
+        <h1 id="title">Random For Blessing</h1>
+
+        <div id="teacher-name-box" class="display-box">
+            <span id="teacher-name">Click Random to Start</span>
+        </div>
+
+        <div class="audio-container">
+            <audio id="blessing-audio" controls>
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <button id="random-btn" class="main-btn">Random</button>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
