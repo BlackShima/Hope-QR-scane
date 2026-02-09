@@ -1,0 +1,24 @@
+.header {
+    background-color: #A67C52;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.display-box {
+    background-color: #D9D9D9;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.main-btn {
+    background-color: #D9D9D9;
+    border: none;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-weight: bold;
+}
